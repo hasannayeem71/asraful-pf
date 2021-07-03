@@ -1,0 +1,449 @@
+<!DOCTYPE html> {% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Asraful Alam web-developer</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.ico'%}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i   " rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/venobox/venobox.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'assets/css/style.css'%}" rel="stylesheet">
+
+    <!-- ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Menu Bar ======= -->
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo mr-auto"><img src="https://techjohnson.com/static/3f48c3f80082983e6959e6a2112d4982/8ba1e/steven.png" alt=""><a href="index.html">Md.Asrfaul</a></h1>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="book-a-table"><a href="#contact">Résumé</a></li>
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+
+    <div class="hero py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="text mt-5 pt-5 lg-pt-0 lg-mt-0">
+                        <h4 class="type">
+                            hello
+                        </h4>
+                        <h2 class="pb-4">I create <span class="text-success"> modern</span> websites <br> that help you grow </h2>
+                        <button class="btn btn-primary radius-10%">Let's Chat</button>
+                        <a href="#portfolio"><span>view my recent projects</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="{% static 'assets\img\four.svg'%}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--new section-->
+
+    <section id="service" class="py-5 my-5 lg-py-0 lg-my-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <img src="{% static 'assets/img/sitting-on-deck.png'%} " class="img-fluid sitting" alt="">
+                </div>
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="whole-text">
+                        <h3>Web Design & Development</h3>
+                        <h2>My Preferred Stack</h2>
+                        <p>As full-time web desinger and web developer, I feel the technology in which we use to get a job done is always changing. Technology moves so rapidly it's almost impossible to keep up. I take great pride in sticking to a few technologies
+                            and truly learning the ins-and-outs of each.</p>
+                    </div>
+                    <div class="img-item">
+                        <div class="img-part-1">
+                            <img src="{% static 'assets/img/html.png '%}" alt=""> HTML <br> <br>
+                            <img src="{% static 'assets/img/css.png'%}" alt="">CSS <br><br>
+                            <img src="{% static 'assets/img/sass.png'%}" alt=""> SASS
+                        </div>
+                        <div class="img-part-2">
+                            <img src="{% static 'assets/img/javascript.png'%}" alt="">Javascript <br><br>
+                            <img src="{% static 'assets/img/react.png'%}" alt="">React <br><br>
+                            <img src="{% static 'assets/img/gatsby.png'%}" alt="">MongoDB
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--about me-->
+    <section id="about" style="background: url('assets/img/bg.jpg')">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 col-md-12 col-xl-3" data-aos="fade-right">
+                    <div class="mybox">
+                        <div class="about-pic">
+                            <img src="{%static 'assets/img/asraf.jpg'%}" class="img-fluid" alt="Asraful">
+                        </div>
+                        <div class="about-name">
+                            <h2> Md. <b class="font-width-bold">Asraful</b></h2>
+                        </div>
+                        <div class="about-di">
+                            <h3>Web Desiner & Developer</h3>
+                        </div>
+
+                        <div class="social">
+                            <a href="https://www.facebook.com/sa.asraful.923" target="_blank"><i class="icofont-facebook"></i></a>
+                            <i class="icofont-github"></i>
+                            <a href="https://twitter.com/MdAsraf74567253" target="_blank"><i class="icofont-twitter"></i></a>
+                            <a href="https://www.instagram.com/sa.asraful.923/" target="_blank"> <i class="icofont-instagram"></i></a>
+                        </div>
+                        <div class="about-details">
+                            <i class="icofont-id"></i> <span>February 21, 2001</span> <br>
+                            <i class="icofont-location-pin"></i><span>Dhaka,Bangladesh</span> <br>
+                            <i class="icofont-ui-message"></i><span> iasraful107@gmail.com</span> <br>
+                            <i class="icofont-ui-touch-phone"></i><span> +8801-861057476 </span><br>
+                            <a href="https://join.skype.com/invite/w9lyPxJXh79n" target="_blank"> <i class="icofont-skype"></i> <span>Md_Asraful</span> </a><br>
+                        </div>
+                        <div class="cv sm-12 text-center">
+                            <button class="btn btn-primary text-center"><i class="icofont-download"></i>Download Resume</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-xl-9" data-aos="fade-up">
+                    <div class="text-box">
+                        <div class="main-text">
+                            <h2>About Me</h2>
+                            <p>I'm Creative Director and Web Designer from Dhaka, Bangladesh, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                                <br> <br> My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My
+                                aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+                        </div>
+                        <div class="doing">
+                            <h2>What I'm Doing</h2>
+
+                            <div class="doing-box1">
+                                <div class="design" data-aos="fade-left">
+                                    <i class="icofont-settings"></i>
+                                    <h2 class="text-dark">Web Design</h2>
+                                    <p>The most modern and high-quality design made at a professional level.</p>
+                                </div>
+                                <div class="development" data-aos="fade-right">
+                                    <i class="icofont-tasks-alt"></i>
+                                    <h2 class="text-dark">Web Development</h2>
+                                    <p>High-quality and professional development of sites at the professional level.</p>
+                                </div>
+                            </div>
+
+                            <div class="doing-box2">
+                                <div class="design" data-aos="fade-left">
+                                    <i class="icofont-brand-wordpress"></i>
+                                    <h2 class="text-dark">Wordpress Development</h2>
+                                    <p>The most modern and high-quality develop made at a professional level.</p>
+                                </div>
+                                <div class="development" data-aos="fade-right">
+                                    <i class="icofont-responsive"></i>
+                                    <h2 class="text-dark">Responsive Web design</h2>
+                                    <p>Responsive web design implies a set of instructions that help web pages change their layout.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--potfolio-->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio pt-5 mt-5">
+        <div class="container">
+
+            <div class="section-title">
+                <h2 class="text-center">My Recent Projects</h2>
+                <p class="text-center pb-2">Here some of my work experiment.You can check my previous work that i have completed with logically.And I'm constantly making websites design and development.In my github account you have got all of works source file.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-card">Web Development
+                            <li>
+                                <li data-filter=".filter-web">Web Design</li>
+                                <li data-filter=".filter-press">Wordpress development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container">
+
+                {%for work in works%} {%if work.projectcatagory == "Web Design"%}
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="{{work.Picture.url}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>{{work.projectname}}</h4>
+                            <p>{{work.projectcatagory}}</p>
+                            <div class="portfolio-links">
+                                <a href="{% static 'assets/img/portfolio/portfolio-2.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="{% static 'portfolio-details.html' %}" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%elif work.projectcatagory == "web development"%}
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="{{work.Picture.url}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>{{work.projectname}}</h4>
+                            <p>{{work.projectcatagory}}</p>
+                            <div class="portfolio-links">
+                                <a href="{% static 'assets/img/portfolio/portfolio-4.jpg' %}" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                                <a href="{% static 'portfolio-details.html' %}" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%else%}
+                <div class="col-lg-4 col-md-6 portfolio-item filter-press">
+                    <div class="portfolio-wrap">
+                        <img src="{{work.Picture.url}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>{{work.projectname}}</h4>
+                            <p>{{work.projectcatagory}}</p>
+                            <div class="portfolio-links">
+                                <a href="{% static 'assets/img/portfolio/portfolio-8.jpg' %}" data-gall="portfolioGallery" class="venobox" title="wordpress one"><i class="bx bx-plus"></i></a>
+                                <a href="{% static 'portfolio-details.html' %}" title="Live Preview"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%endif%} {%endfor%}
+
+
+
+
+                <!--wordpress-->
+
+                <!--wordpress end-->
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!--start contact part-->
+    <!-- =======================================================
+ ======================================================== -->
+    </head>
+
+    <body>
+
+        <!--nre-->
+        <section id="contact" class="my-5 py-5">
+            <div class="container">
+                <div class="contact-info text-center pb-4">
+
+                    <h2>Contact</h2>
+                    <p>Here you can easily messsage to me for your any kind of need.</p>
+                    <hr>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="svg pt-5">
+                            <img src="{% static 'assets/img/contact5.svg '%}" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-head">
+                            <h2 class="text-center font-weight-bold text-success my-4 pt-4">Get in Touch With Me</h2>
+                            <hr class="font-weight-bold text-success">
+                        </div>
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="name1"> <i class="icofont-pencil-alt-1 mr-2"></i> First Name</label>
+                                    <input type="text" name="firstname" class="form-control" id="name1" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name2"> <i class="icofont-pencil-alt-1 mr-2"></i> Last Name</label>
+                                    <input type="text" name="lastname" class="form-control" id="name2" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="icofont-email mr-2"></i>Email</label>
+                                <input type="email" name="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message"> <i class="icofont-ui-video-message mr-2"></i> Message</label>
+                                <input type="text" class="form-control" name="msg" id="message" cols="" rows="5" placeholder="write something..">
+                            </div>
+
+
+                            <div class="set">
+                                <button class="btn  btn-lg" type="submit">Sent<i class="icofont-hand-drawn-right ml-2"></i></button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+
+
+        <!--footer-->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="office">
+                            <h2>Communication & Addresss</h2>
+                            <ul>
+                                <li> <i class="icofont-location-pin"></i> Gazipur,Dhaka,Bangladesh</li>
+                                <li><i class="icofont-ui-cell-phone"></i>Phone: +88 01 8610574-76 </li>
+                                <li><i class="icofont-email"></i> Email: iasraful107@gmail.com</li>
+                                <li><i class="icofont-contacts"></i>Contact: softcoerner@net.bd</li>
+                            </ul>
+                        </div>
+                        <div class="socials">
+                            <h4>Follow In</h4>
+                            <a href=""><i class="icofont-facebook"></i></a>
+                            <a href=""><i class="icofont-twitter"></i></a>
+                            <a href=""><i class="icofont-instagram"></i></a>
+                            <a href=""><i class="icofont-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <h2>Nevigation</h2>
+                        <ul>
+                            <li><a href=""><i class="icofont-double-right"></i>Home</a></li>
+                            <li><a href=""><i class="icofont-double-right"></i>About</a></li>
+                            <li><a href=""><i class="icofont-double-right"></i>Blog</a></li>
+                            <li><a href=""><i class="icofont-double-right"></i>Services</a></li>
+                            <li><a href=""><i class="icofont-double-right"></i>Portfolio</a></li>
+                            <li><a href=""><i class="icofont-double-right"></i>Contact</a></li>
+                            <li><a href=""><i class="icofont-double-right"></i>Resume</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="services-area">
+                            <h2>Services</h2>
+                            <ul>
+                                <li><a href=""><i class="icofont-double-right"></i>Web Design</a></li>
+                                <li><a href=""><i class="icofont-double-right"></i>Web Development</a></li>
+                                <li><a href=""><i class="icofont-double-right"></i>Wordpress Design</a></li>
+                                <li><a href=""><i class="icofont-double-right"></i>Responsive Web Design</a></li>
+                                <li><a href=""><i class="icofont-double-right"></i>One Page Design</a></li>
+                                <li><a href=""><i class="icofont-double-right"></i>E-commerce site design</a></li>
+                                <li><a href=""><i class="icofont-double-right"></i>Service website design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="at">
+                            <h2>Subscribe</h2>
+                            <div class="subs">
+                                <input type="email" placeholder="Enter Email" class="form-control">
+                                <button class="btn btn-success btn-md mr-4"><i class="icofont-location-arrow"></i></button>
+                            </div>
+                        </div>
+                        <div class="img">
+                            <img src="{% static 'assets/img/app.png'%}" class="img-fluid" alt="">
+                            <img src="{% static 'assets/img/play.png'%}" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <div class="last">
+            <div class="container">
+                <div class="text">
+                    <h6>Copyright &copy; <a href="">Md.Asraful</a> 2021. All Rights Reserved</h6>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <i class="fas fa-signal-4    "></i>
+        <!--preloader and back to top-->
+        <div id="preloader"></div>
+        <a href="#" class="back-to-top"><i class="icofont-simple-up"></a>
+
+        <!-- Vendor JS Files -->
+        <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+        <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/venobox/venobox.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+        <script src="{% static 'assets/vendor/autotype/typed.js' %}"></script>
+        <!-- Template Main JS File -->
+        <script src="{% static 'assets/js/main.js' %}"></script>
+
+    </body>
+
+</html>
